@@ -1,0 +1,220 @@
+	*{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-decoration: none;
+		
+	}
+
+	body{
+		font-family: "Heveltica", "Trebuchet MS" sans-serif;
+		background: #fff url(imagens/bg.png);
+		margin: 15px;
+	}
+
+	/**start header*/
+	#container {
+		background: #ede9cc url(imagens/bg-container.png) top center repeat-y;
+		margin: 0 auto;
+		min-width: 740px;
+		max-width: 1100px;
+	}
+
+	#header{
+		background: #dbcd87;
+	    height: 15.4em;
+	    min-height: 250px;
+	  border: 1px solid green;
+	  position: relative;
+	  z-index: 0;
+
+	}
+
+    /**left formatting*/
+
+	#place-logo{
+		background: url(imagens/topo-imagem-principal.png) no-repeat;
+		width: 100%;
+		height: 250px; 
+		position: absolute;
+	   left: 0;
+	   top: 0;
+	 z-index: 0;
+	} 
+
+	.logo a{
+		position: absolute;
+		top: 15px;
+	    left: 15px ;
+	    z-index: 2;
+	    background: url(imagens/logo.png) no-repeat;
+	    width: 151px;
+	    height: 66px;
+	    text-indent: -9000px;
+	}
+
+/*right formatting*/
+	#navegation{
+	    background: url(imagens/topo-imagem-lateral.png) no-repeat ;
+	    width: 400px;
+	    height: 250px;
+	    position: absolute;
+	   right: 0;
+	      top: 0;
+	  z-index: 1;
+	}
+
+	#contnav{
+		margin-left: 90px;
+		margin-right: 15px;
+		padding-top: 15px;
+	}
+   
+   /* horizontal.bar*/
+	#naveHO{
+		border-bottom: 1px solid #b5ab56;
+		border-top: 1px solid #b5ab56;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 0.7em;
+		color: #8b8448;
+	}
+
+	#naveHO li{
+		list-style-type: none;
+		display: inline;
+		
+	}
+
+	#naveHO li a{
+	    margin: 0 5px;
+	    color: #8b8448;
+	   float: left;
+	   line-height: 2.1em;
+	   
+	}
+
+	#naveHO a.linkreserve {
+		
+		float: right;
+		text-transform: uppercase;
+		background: #a29750;
+		color: #fff5b0;
+		padding: 0px 10px;
+	}
+
+	#naveHO li a:hover{
+		border-bottom: 1px solid #a29750;
+	}
+
+	#naveHO a.linkreserve:hover{
+		background-color: #fff5b0;
+		color: #a29750;
+	    border-bottom: none;
+	}
+/* Vertical.bar*/
+	#naveVE{
+		margin-top: 15px;
+		
+	}
+
+	 #naveVE li a{
+	 	text-transform: uppercase;
+	 	font-size: 0.8em;
+	 	padding: 5px;
+	 	color: #6e672c;
+	 	line-height: 30px;
+
+	}
+
+	#naveVE li a:hover{
+		background:#fff5b0 ;
+	}
+
+	#testimony{
+	    right: 0;
+	    top: 65px;
+		width: 210px;
+		height: 150px;
+		position: absolute;
+		margin-right: 5px;
+
+	}
+	/**stop header*/
+	/**start post area*/
+	#main-area{
+	    float: left;
+	    width: 50%;
+	    background: url(imagens/bg-area-principal.png) top left repeat-x;
+	    padding: 15px 0px;
+	}
+
+
+	#side-area{
+	    float: right;
+	    width: 50%;
+	    background: url(imagens/bg-area-lateral.png) top left repeat-x;
+        padding: 20px 0;
+	}
+
+	.contmainside{
+		margin: 0 auto;
+		width: 90%;
+	}
+
+    /**main text formatting*/
+     
+     h2{
+     	color: #7d7640;
+     	font-size: 1.1em;
+     	padding: 5px 0;
+     }
+
+     p{
+     	font-size: 1em;
+     	margin-bottom: 10px;
+     }
+
+  /** side text formatting*/
+	#benefits li {
+       padding: 8px;
+       border-bottom: 1px solid #f3efcb;
+		height: 6em;
+	}
+
+	 #benefits li a img {
+     	float: left;
+     	margin-right: 8px;
+     } 
+
+     #benefits li a p {
+     	font-size: 0.8em;
+     	color: #000;
+     	
+     } 
+
+     #benefits li a h3{
+     	font-size: 1em;
+     	color: #615b2d;
+     	padding: 5px 0;
+     	background: url(imagens/ornamento.png) no-repeat center right;
+
+     }
+
+      #benefits li:hover{
+      	background: #f6f3d6;
+      	cursor: pointer;
+      }
+	/**stop post area*/
+	/**start footer*/
+
+	#footer{
+		clear: both;
+		padding: 16px;
+		background: #fff url(imagens/bg-rodape.png) repeat-x top;
+		color: #7d7640;
+	}
+.
+
+
+	
